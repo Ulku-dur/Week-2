@@ -12,7 +12,7 @@ public class Main {
             int remainder = temp % 10;
             temp = temp / 10;
         }
-        if (numer == reversedNumber) {
+        if (number == reversedNumber) {
             System.out.println("number is palindrome");
         }
         else
