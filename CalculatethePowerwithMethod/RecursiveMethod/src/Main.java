@@ -6,6 +6,8 @@ public class Main {
         if (exp == 0) {
             return 1;
         } else {
+            // In this way, the us value is decreased by one at each step 
+           // and the method is called again. Recursion continues until exp. becomes 0, in which case 1 is returned and recursion ends. *
             return base * power(base, exp-1);
         }
     }
